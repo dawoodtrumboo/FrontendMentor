@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Outfit Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Outfit Regular'), url('OutfitRegular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Outfit Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Outfit Thin'), url('OutfitVariableFont_wght1.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Outfit ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Outfit ExtraLight'), url('OutfitExtraLight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Outfit Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Outfit Light'), url('OutfitLight1.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Outfit Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Outfit Medium'), url('OutfitMedium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Outfit SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Outfit SemiBold'), url('OutfitSemiBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Outfit Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Outfit Bold'), url('OutfitBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Outfit ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Outfit ExtraBold'), url('OutfitExtraBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Outfit Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Outfit Black'), url('OutfitBlack.woff') format('woff');
+    }
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-family: 'Outfit ExtraBold';
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+p{
+    font-family:'Outfit Light';
+    color: hsl(212, 45%, 89%);
+}
+    body{
+        background-color:  #D6E1F0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .outer-box{
+        background-color: hsl(0, 0%, 100%);
+        /* width: 18%; */
+        width:250px;
+        /* height: 46%; */
+        height: 430px;
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        padding:1.5rem;
+        border-radius: 1.5rem;
+        text-align: center;
+        box-shadow: 0 10px 15px 0 rgba(0,0,0,.2);
+      }
+      img{
+        border-radius: 1.5rem;
+      }
